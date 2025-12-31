@@ -50,11 +50,6 @@ if __name__ == "__main__":
 
 """
 
-# GitHub OAuth
-os.environ["FASTMCP_SERVER_AUTH"]="fastmcp.server.auth.providers.github.GitHubProvider"
-os.environ["FASTMCP_SERVER_AUTH_GITHUB_CLIENT_ID"]="Iv23liw8DCEbMSLF3CpL"
-os.environ["FASTMCP_SERVER_AUTH_GITHUB_CLIENT_SECRET"]="fcd69ccdbbc99eab80f58eb76f1a20eeb79d13d7"
-
 client = Client("https://vague-lime-quokka.fastmcp.app/mcp", auth="fmcp_w-7O2rWBpJbW8_NfjRSPGjrc80zg60AuZ_HlSoLuTU4")
 
 async def main():
