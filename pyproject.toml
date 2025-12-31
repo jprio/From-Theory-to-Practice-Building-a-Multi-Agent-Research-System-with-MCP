@@ -1,0 +1,15 @@
+[project]
+name = "from-theory-to-practice-building-a-multi-agent-research-system-with-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.13.2",
+    "colorlog>=6.10.1",
+    "dotenv>=0.9.9",
+    "fastmcp>=2.14.1",
+    "mcp[cli]>=1.25.0",
+    "redis>=7.1.0",
+    "tavily>=1.1.0",
+]
